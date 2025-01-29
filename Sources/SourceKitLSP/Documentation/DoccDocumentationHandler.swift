@@ -12,7 +12,9 @@
 
 #if canImport(SwiftDocC)
 import Foundation
+import IndexStoreDB
 import Markdown
+import SemanticIndex
 import SymbolKit
 
 #if compiler(>=6)

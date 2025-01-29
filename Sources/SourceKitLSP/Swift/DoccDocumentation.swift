@@ -12,6 +12,8 @@
 
 #if canImport(SwiftDocC)
 import Foundation
+import SemanticIndex
+import SwiftExtensions
 import SwiftSyntax
 
 #if compiler(>=6)

@@ -11,12 +11,9 @@
 //===----------------------------------------------------------------------===//
 
 #if canImport(SwiftDocC)
+import BuildServerProtocol
 import Foundation
-import IndexStoreDB
 import LanguageServerProtocol
-import SemanticIndex
-@preconcurrency import SwiftDocC
-import SwiftExtensions
 
 struct DocCBuildInformation {
   let catalogURL: URL?
